@@ -4,16 +4,17 @@
 
 | Feature                 | Specification                     |
 | :---------------------- | :-------------------------------- |
-| CPU                     | Octa-core (1x2.4 GHz Cortex-A78 & 3x2.36 GHz Cortex-A78 & 4x1.8 GHz Cortex-A55) |
-| Chipset                 | Qualcomm SM8475 Snapdragon 8+ Gen 1 (4 nm) |
-| GPU                     | Adreno 730 |
-| Memory                  | 8GB/12GB/16GB LPDDR5 |
-| Shipped Android Version | 14.0 |
-| Storage                 | 128GB/256GB UFS 3.1 |
-| Battery                 | 5000 mAh |
-| Display                 | 6.74 inches, 1240 x 2772 pixels, AMOLED, 120Hz |
-| Camera (Rear)           | 50 MP (wide), 8 MP (ultrawide), 2 MP (macro) |
-| Camera (Front)          | 16 MP (wide) |
+| CPU                     | Qualcomm® Kryo™ 980 CPU @3.3GHz |
+| Chipset                 | Snapdragon® 8 Gen 3 Mobile Platform |
+| GPU                     | Adreno™ 750 @903MHz |
+| Memory                  | 12GB/16GB LPDDR5X |
+| Shipped Android Version | OxygenOS 15.0 based on Android™ 15 |
+| Storage                 | 256GB/512GB UFS 4.0 |
+| Battery                 | 6,000 mAh (single-cell, non-removable) |
+| Display                 | 17.22 cm (6.78 inches), 2780×1264 pixels, 450 ppi, 120Hz ProXDR Display with LTPO 4.1, HBM/Peak Brightness: 1600 nits/4500 nits, 100% Display P3, 10-bit Color Depth, Corning® Gorilla® Glass GG7i |
+| Camera (Rear)           | 50 MP (wide), Sony LYT-700, 1/1.56", f/1.8, OIS, 50 MP (telephoto), 2X optical zoom, f/2.0, 8 MP (ultrawide), f/2.2, 112° FOV |
+| Camera (Front)          | 16 MP (wide), 1/3.09", f/2.4, 82° FOV |
+| Charging                | 80W SUPERVOOC™ |
 
 ## Copyright
 
