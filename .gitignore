@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But not these files
+!.gitignore
+!Android.mk
+!BoardConfig.mk
+!device.mk
+!manifest.xml
+!proprietary-files.txt
+!README.md 

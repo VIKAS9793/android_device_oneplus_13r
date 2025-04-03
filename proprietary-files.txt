@@ -1,0 +1,17 @@
+# Audio
+vendor/lib/hw/audio.primary.taro.so
+vendor/lib/hw/audio.r_submix.default.so
+vendor/lib/hw/audio.usb.default.so
+
+# Audio configuration
+vendor/etc/audio_effects.xml
+vendor/etc/audio_io_policy.conf
+vendor/etc/audio_platform_info.xml
+vendor/etc/audio_policy_configuration.xml
+vendor/etc/audio_tuning_mixer.txt
+vendor/etc/mixer_paths.xml
+
+# Bluetooth audio
+vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so
+vendor/lib/hw/android.hardware.bluetooth.audio@2.1-impl.so
+vendor/lib/hw/android.hardware.bluetooth.audio@2.2-impl.so 
