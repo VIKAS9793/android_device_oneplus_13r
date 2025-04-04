@@ -35,6 +35,15 @@ local.properties
 
 # Log Files
 *.log
+*.log.*
+*.tmp
+*.orig
+*.rej
+*.patch
+*.diff
+*.bak
+*.swp
+*~
 
 # Android Studio Navigation editor temp files
 .navigation/
@@ -45,6 +54,12 @@ captures/
 # IntelliJ
 *.iml
 .idea/
+.vscode/
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
 
 # Keystore files
 *.jks
@@ -56,9 +71,6 @@ captures/
 
 # Google Services (e.g. APIs or Firebase)
 google-services.json
-
-# Version control
-vcs.xml
 
 # lint
 lint/intermediates/
@@ -73,4 +85,43 @@ lint/tmp/
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-Thumbs.db 
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Build artifacts
+*.o
+*.ko
+*.obj
+*.elf
+*.bin
+*.img
+*.zip
+*.tar
+*.gz
+*.tgz
+*.rar
+*.7z
+
+# Local configuration
+local_manifest.xml
+local_products.mk
+
+# Prebuilt files
+prebuilt/
+vendor/
+
+# Empty directories
+audio/
+prebuilt/
+
+# LineageOS specific
+lineage_*.zip
+lineage_*.md5sum
+lineage_*.sha256sum 
