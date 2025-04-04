@@ -1,0 +1,63 @@
+# Copyright (c) 2024 The LineageOS Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import /vendor/etc/init/hw/init.kalama.rc
+import /vendor/etc/init/init.13r.rc
+
+on init
+    # Set device-specific properties
+    setprop ro.product.device 13r
+    setprop ro.product.model "OnePlus 13R"
+    setprop ro.product.name "13r"
+    setprop ro.product.board "kalama"
+
+on property:sys.boot_completed=1
+    # Start device-specific services
+    start vendor.qti.hardware.perf@2.3-service
+    start vendor.qti.hardware.servicetracker@1.0-service
+    start vendor.qti.hardware.trustedui@1.0-service
+
+on property:vendor.qti.hardware.perf.enable=true
+    start vendor.qti.hardware.perf@2.3-service
+
+on property:vendor.qti.hardware.perf.enable=false
+    stop vendor.qti.hardware.perf@2.3-service
+
+# Set permissions for device-specific files
+on post-fs-data
+    # Set permissions for vendor files
+    chmod 0644 /vendor/lib/hw/audio.primary.kalama.so
+    chmod 0644 /vendor/lib64/hw/audio.primary.kalama.so
+    chmod 0644 /vendor/lib/hw/camera.qcom.so
+    chmod 0644 /vendor/lib64/hw/camera.qcom.so
+    chmod 0644 /vendor/lib/hw/gralloc.kalama.so
+    chmod 0644 /vendor/lib64/hw/gralloc.kalama.so
+    chmod 0644 /vendor/lib/hw/hwcomposer.kalama.so
+    chmod 0644 /vendor/lib64/hw/hwcomposer.kalama.so
+
+# Set up device-specific services
+service vendor.qti.hardware.perf@2.3-service /vendor/bin/hw/vendor.qti.hardware.perf@2.3-service
+    class late_start
+    user system
+    group system
+
+service vendor.qti.hardware.servicetracker@1.0-service /vendor/bin/hw/vendor.qti.hardware.servicetracker@1.0-service
+    class late_start
+    user system
+    group system
+
+service vendor.qti.hardware.trustedui@1.0-service /vendor/bin/hw/vendor.qti.hardware.trustedui@1.0-service
+    class late_start
+    user system
+    group system 

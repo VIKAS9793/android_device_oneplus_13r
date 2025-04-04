@@ -1,0 +1,75 @@
+# OnePlus 13R specific policies
+
+# Allow vendor init to set properties
+set_prop(vendor_init, vendor_qti_prop, vendor_qti_prop)
+
+# Allow vendor init to read/write vendor files
+allow vendor_init vendor_file:dir { read write open search getattr };
+allow vendor_init vendor_file:file { read write open getattr };
+
+# Allow vendor init to execute vendor binaries
+allow vendor_init vendor_file:file { execute execute_no_trans };
+
+# Allow vendor init to set system properties
+set_prop(vendor_init, system_prop, system_prop)
+
+# Allow vendor init to communicate with init
+allow vendor_init init:process { getattr };
+
+# Allow vendor init to read system files
+allow vendor_init system_file:dir { read open search getattr };
+allow vendor_init system_file:file { read open getattr };
+
+# Allow vendor init to write to system properties
+set_prop(vendor_init, system_prop, system_prop)
+
+# Allow vendor init to communicate with system_server
+allow vendor_init system_server:process { getattr };
+
+# Allow vendor init to read vendor properties
+get_prop(vendor_init, vendor_prop)
+
+# Allow vendor init to set vendor properties
+set_prop(vendor_init, vendor_prop, vendor_prop)
+
+# Allow vendor init to read system properties
+get_prop(vendor_init, system_prop)
+
+# Allow vendor init to communicate with qti_init_shell
+allow vendor_init qti_init_shell:process { getattr };
+
+# Allow vendor init to read vendor files
+allow vendor_init vendor_file:dir { read open search getattr };
+allow vendor_init vendor_file:file { read open getattr };
+
+# Allow vendor init to write to vendor files
+allow vendor_init vendor_file:dir { write };
+allow vendor_init vendor_file:file { write };
+
+# Allow vendor init to execute vendor binaries
+allow vendor_init vendor_file:file { execute execute_no_trans };
+
+# Allow vendor init to communicate with init
+allow vendor_init init:process { getattr };
+
+# Allow vendor init to read system files
+allow vendor_init system_file:dir { read open search getattr };
+allow vendor_init system_file:file { read open getattr };
+
+# Allow vendor init to write to system properties
+set_prop(vendor_init, system_prop, system_prop)
+
+# Allow vendor init to communicate with system_server
+allow vendor_init system_server:process { getattr };
+
+# Allow vendor init to read vendor properties
+get_prop(vendor_init, vendor_prop)
+
+# Allow vendor init to set vendor properties
+set_prop(vendor_init, vendor_prop, vendor_prop)
+
+# Allow vendor init to read system properties
+get_prop(vendor_init, system_prop)
+
+# Allow vendor init to communicate with qti_init_shell
+allow vendor_init qti_init_shell:process { getattr }; 

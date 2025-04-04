@@ -1,0 +1,56 @@
+# Audio
+/vendor/lib/hw/audio.primary.kalama.so     u:object_r:vendor_file:s0
+/vendor/lib64/hw/audio.primary.kalama.so    u:object_r:vendor_file:s0
+/vendor/lib/hw/audio.r_submix.default.so    u:object_r:vendor_file:s0
+/vendor/lib64/hw/audio.r_submix.default.so   u:object_r:vendor_file:s0
+/vendor/lib/hw/audio.usb.default.so         u:object_r:vendor_file:s0
+/vendor/lib64/hw/audio.usb.default.so        u:object_r:vendor_file:s0
+/vendor/lib/hw/sound_trigger.primary.kalama.so u:object_r:vendor_file:s0
+/vendor/lib64/hw/sound_trigger.primary.kalama.so u:object_r:vendor_file:s0
+
+# Camera
+/vendor/lib/hw/android.hardware.camera.provider@2.7-impl-qti.so u:object_r:vendor_file:s0
+/vendor/lib64/hw/android.hardware.camera.provider@2.7-impl-qti.so u:object_r:vendor_file:s0
+/vendor/lib/hw/camera.qcom.so u:object_r:vendor_file:s0
+/vendor/lib64/hw/camera.qcom.so u:object_r:vendor_file:s0
+
+# Display
+/vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl.so u:object_r:vendor_file:s0
+/vendor/lib/hw/android.hardware.graphics.composer@2.5-impl.so u:object_r:vendor_file:s0
+/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-qti-display.so u:object_r:vendor_file:s0
+/vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-qti-display.so u:object_r:vendor_file:s0
+/vendor/lib/hw/gralloc.kalama.so u:object_r:vendor_file:s0
+/vendor/lib64/hw/gralloc.kalama.so u:object_r:vendor_file:s0
+/vendor/lib/hw/hwcomposer.kalama.so u:object_r:vendor_file:s0
+/vendor/lib64/hw/hwcomposer.kalama.so u:object_r:vendor_file:s0
+
+# Fingerprint
+/vendor/lib/hw/android.hardware.biometrics.fingerprint@2.3-impl-qti.so u:object_r:vendor_file:s0
+/vendor/lib64/hw/android.hardware.biometrics.fingerprint@2.3-impl-qti.so u:object_r:vendor_file:s0
+
+# GPS
+/vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so u:object_r:vendor_file:s0
+/vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so u:object_r:vendor_file:s0
+
+# Power
+/vendor/lib/hw/android.hardware.power@1.3-impl-qti.so u:object_r:vendor_file:s0
+/vendor/lib64/hw/android.hardware.power@1.3-impl-qti.so u:object_r:vendor_file:s0
+
+# Sensors
+/vendor/lib/hw/android.hardware.sensors@2.0-impl-qti.so u:object_r:vendor_file:s0
+/vendor/lib64/hw/android.hardware.sensors@2.0-impl-qti.so u:object_r:vendor_file:s0
+
+# Thermal
+/vendor/lib/hw/android.hardware.thermal@2.0-impl-qti.so u:object_r:vendor_file:s0
+/vendor/lib64/hw/android.hardware.thermal@2.0-impl-qti.so u:object_r:vendor_file:s0
+
+# USB
+/vendor/lib/hw/android.hardware.usb@1.3-impl.so u:object_r:vendor_file:s0
+
+# Vibrator
+/vendor/lib/hw/android.hardware.vibrator@1.3-impl-qti.so u:object_r:vendor_file:s0
+/vendor/lib64/hw/android.hardware.vibrator@1.3-impl-qti.so u:object_r:vendor_file:s0
+
+# Wi-Fi
+/vendor/lib/hw/android.hardware.wifi@1.0-impl-qti.so u:object_r:vendor_file:s0
+/vendor/lib64/hw/android.hardware.wifi@1.0-impl-qti.so u:object_r:vendor_file:s0 
