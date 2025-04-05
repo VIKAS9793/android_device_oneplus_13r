@@ -1,0 +1,13 @@
+FILE_HASH=iFd/9XvnjH07ODqP0bEfvFjZfXSXenLDkkr9SlIP/So=
+FILE_SIZE=987151813
+METADATA_HASH=D03DRqipGXOwe8T9mKXo2+EWByMGRmgYkEkhfLgi4UI=
+METADATA_SIZE=933963
+android_version=15
+forbid_ota_local_update=false
+oplus_update_engine_verify_disable=0
+ota_target_version=CPH2691_11.A.47_0470_202503142130
+oplus_rom_version=V15.0.0
+security_patch=2025-03-01
+security_patch_vendor=2025-03-01
+oplus_separate_soft=23867
+mainline_version=351165134
