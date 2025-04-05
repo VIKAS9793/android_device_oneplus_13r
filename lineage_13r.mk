@@ -11,6 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from 13r device
 $(call inherit-product, device/oneplus/13r/device.mk)
 
+# Inherit from sm8650-common
+$(call inherit-product, device/oneplus/sm8650-common/common.mk)
+
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
