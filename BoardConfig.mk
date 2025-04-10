@@ -57,5 +57,10 @@ TARGET_USES_HWC2 := true
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_GRALLOC4 := true
 
+# Removed network/charger configs (now in vendor.prop)
+
+# Build fingerprint
+BUILD_FINGERPRINT := OnePlus/OnePlus13R/OnePlus13R_IN:15/TQH1.250301.001/250301001:user/release-keys
+
 # Include proprietary files
 include vendor/oneplus/13r/BoardConfigVendor.mk

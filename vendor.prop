@@ -33,3 +33,13 @@ ro.recovery.vendor_cmdline=bootconfig
 # Vendor
 ro.vendor.build.security_patch=2025-03-01
 ro.vendor.build.fingerprint=OnePlus/OnePlus13R/OnePlus13R:15/TQH1.250301.001/250301001:user/release-keys
+ro.product.vendor.device=OnePlus13R_IN
+
+# India Configuration
+ro.product.vendor.model=CPH2591
+ro.opa.region_support=IN
+ro.vendor.radio.imei.sv=4
+ro.telephony.default_network=22,20
+persist.vendor.quick.charge=1
+persist.vendor.cp.fcc=5000
+ro.compliance.india=true
