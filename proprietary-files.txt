@@ -1,0 +1,49 @@
+# Audio
+vendor/etc/audio/audio_effects.xml
+vendor/etc/audio/audio_platform_info_intcodec.xml
+
+# Bluetooth
+vendor/etc/bluetooth/bt_vendor.conf
+
+# Camera
+vendor/etc/camera/camera_config.xml
+
+# Display
+vendor/etc/display/display_id.cfg
+
+# Fingerprint
+vendor/etc/fingerprint/fingerprint_prop.cfg
+
+# GPS
+vendor/etc/gps/gps.conf
+
+# Keylayout
+vendor/usr/keylayout/gf_input.kl
+
+# Media
+vendor/etc/media/media_codecs.xml
+vendor/etc/media/media_codecs_performance.xml
+
+# NFC
+vendor/etc/nfc/libnfc-nxp.conf
+
+# OMX
+vendor/etc/omx/omx_perf.conf
+
+# QDSS
+vendor/etc/qdss/qdss_config.xml
+
+# Radio
+vendor/etc/radio/modem.conf
+
+# Sensors
+vendor/etc/sensors/sensor_def_qcomdev.conf
+
+# Thermal
+vendor/etc/thermal/thermal-engine.conf
+
+# USB
+vendor/etc/usb/usb_audio_policy_configuration.xml
+
+# WiFi
+vendor/etc/wifi/wpa_supplicant.conf

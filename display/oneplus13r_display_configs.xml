@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<display-configs>
+    <gralloc>
+        <buffer-format>
+            <format>R8G8B8A8_UNORM</format>
+            <format>R8G8B8X8_UNORM</format>
+            <format>R8G8B8_UNORM</format>
+        </buffer-format>
+        <buffer-usage>
+            <usage>GPU_RENDER_TARGET</usage>
+            <usage>GPU_TEXTURE</usage>
+            <usage>CAMERA_OUTPUT</usage>
+        </buffer-usage>
+    </gralloc>
+    <hwcomposer>
+        <display-id>0</display-id>
+        <display-type>primary</display-type>
+        <display-resolution>
+            <width>1080</width>
+            <height>2400</height>
+        </display-resolution>
+        <display-refresh-rates>
+            <rate>60</rate>
+            <rate>90</rate>
+            <rate>120</rate>
+        </display-refresh-rates>
+    </hwcomposer>
+    <light>
+        <backlight>
+            <min-brightness>0</min-brightness>
+            <max-brightness>255</max-brightness>
+            <step>1</step>
+        </backlight>
+        <notification>
+            <color-support>true</color-support>
+            <max-intensity>255</max-intensity>
+        </notification>
+    </light>
+</display-configs>

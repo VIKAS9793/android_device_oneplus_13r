@@ -1,0 +1,35 @@
+# Bluetooth
+bluetooth.device.default_name=OnePlus 13R
+
+# Graphics
+ro.surface_flinger.set_display_power_timer_ms=1000
+ro.surface_flinger.set_idle_timer_ms=80
+ro.surface_flinger.set_touch_timer_ms=200
+
+# USB
+vendor.usb.product_string=OnePlus 13R
+
+# Camera
+ro.camera.notify_nfc=1
+
+# Display
+ro.sf.lcd_density=450
+
+# Audio
+ro.audio.monitorRotation=true
+
+# NFC
+ro.nfc.port=I2C
+
+# Fingerprint
+ro.hardware.fingerprint=goodix
+
+# Power
+ro.config.max_starting_bg=10
+
+# Recovery
+ro.recovery.vendor_cmdline=bootconfig
+
+# Vendor
+ro.vendor.build.security_patch=2025-03-01
+ro.vendor.build.fingerprint=OnePlus/OnePlus13R/OnePlus13R:15/TQH1.250301.001/250301001:user/release-keys

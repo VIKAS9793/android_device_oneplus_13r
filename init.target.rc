@@ -1,0 +1,37 @@
+# Copyright (C) 2024 The LineageOS Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+on init
+    # Set device properties
+    setprop ro.product.device 13r
+    setprop ro.product.manufacturer OnePlus
+    setprop ro.product.brand OnePlus
+    setprop ro.product.model OnePlus 13R
+    setprop ro.product.name OnePlus13R
+
+on post-fs-data
+    # Set product properties
+    setprop ro.product.product.device 13r
+    setprop ro.product.product.manufacturer OnePlus
+    setprop ro.product.product.brand OnePlus
+    setprop ro.product.product.model OnePlus 13R
+    setprop ro.product.product.name OnePlus13R
+
+on late-init
+    # Set system properties
+    setprop ro.product.system.device 13r
+    setprop ro.product.system.manufacturer OnePlus
+    setprop ro.product.system.brand OnePlus
+    setprop ro.product.system.model OnePlus 13R
+    setprop ro.product.system.name OnePlus13R
